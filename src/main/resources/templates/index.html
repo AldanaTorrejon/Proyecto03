@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>TRABAJO PRÁCTICO N°3</title>
+<link th:href="@{/css/Styles.css}" rel="stylesheet" type="text/css">
+<link th:href="@{/webjars/bootstrap/5.0.0/css/bootstrap.min.css}"
+	rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+	<div class="container"></div>
+		<div th:insert="header :: header"></div>
+
+		<!-- AVISO Y ASIDE -->
+
+		<div id="noticia" class="container w-70 pl-5">
+
+			<div class="row align-items-center">
+				<div class="titulo">
+					<p style="text-align: center">Eunoia</p>
+				</div>
+				<section class="aviso">
+					<div class="container w-30">
+						<div class="row justify-content-md-center py-3">
+							<div class="col text-center">
+								<p class="text">Abrimos las puertas del mundo por medio de
+									la educación de idiomas, el intercambio cultural, programas
+									académicos, y viajes educativos.</p>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+			<div class="col-sm p-3">
+				<img src="/img/mujer.jpg "
+					class="w-100 rounded-circle mx-auto d-block" alt="" width="40"
+					height="500">
+			</div>
+		</div>
+	
+
+
+	<!-- AVISO Y ASIDE -->
+
+
+	<!-- CURSOS -->
+
+	<section class="cursos">
+		<div class="container-md w-30 p-5">
+
+			<div class="row">
+				<h3 class="text-center h1">Cursos Eunoia</h3>
+			</div>
+			<p style="text-align: center" class="texto">Estudios Academicos,
+				Aprende un idioma, Viajes Educativos, Intercambio Cultural</p>
+			<div class="row">
+
+
+				<div class="col-6 col-sm pt-5">
+					<div class="card h-100 card-border" style="width: 100%;">
+						<img src="./img/Inglaterra.jpg.jpeg" height="300px" class="card-img-top"
+							alt="">
+						<div class="card-body">
+							<h5 class="card-title">INGLES</h5>
+							<p class="card-text">
+								Aprende de inglés de la forma más fácil y divertida, usando
+								palabras de la vida cotidiana para todas las edades! Desde como
+								decir borracho a como decir expresarte como NATIVAAAH. <br>Ademas
+								te dejamos el link de nuestra página de youtube donde podes
+								saber como hacer voluntariados, viajar, trabajar y aprender
+								inglés. 3x1 qué estás esperando? sumate con nosotros y
+								comencemos este viaje!!
+							</p>
+							<a href="https://www.youtube.com/watch?v=ORE-HSrQNrg&t=18s"
+								target="_blank" class="btn btn-primary">Leer más</a>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="col-6 col-sm pt-5">
+					<div class="card h-100 card-border" style="width: 100%;">
+						<img src="./img/Alemania.jpg.jpeg" height="300px"
+							class="card-img-top" alt="">
+						<div class="card-body">
+							<h5 class="card-title">ALEMÁN</h5>
+							<p class="card-text">Te invito a conocer la cultura alemana,
+								paisajes, secretos y sobre todo su idioma conmigo, Aldana! Te
+								enseñaré distintas formas de aprender todo esto y de la forma
+								más divertida. Conoceremos distintas partes de este hermoso
+								país.</p>
+							<a href="https://www.youtube.com/watch?v=oQKEZF_R5bc"
+								target="_blank" class="btn btn-primary">Leer más</a>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="col-6 col-sm pt-5">
+					<div class="card h-100 card-border">
+						<img src="./img/Corea.jpg.jpeg" height="300px" class="card-img-top"
+							alt="">
+						<div class="card-body">
+							<h5 class="card-title">COREANO</h5>
+							<p class="card-text">Hola! Soy Luciana, y conmigo aprenderás
+								este idioma el cual es muy popular últimamente, sobre todo para
+								los adolescente! Que mejor que ir a ver el concierto de BTS y
+								poder charlar con uno de ellos, te gustaría? Pues, te invito a
+								que junt@s caminemos por corea mientras te muestro su cultura y
+								paisajes!</p>
+							<a href="https://www.youtube.com/watch?v=DpOjJU8TEHM"
+								target="_blank" class="btn btn-primary">Leer más</a>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="col-6 col-sm pt-5">
+					<div class="card h-100 card-border">
+						<img src="./img/Francia.jpg.jpeg" height="300px"
+							class="card-img-top" alt="">
+						<div class="card-body">
+							<h5 class="card-title">FRANCES</h5>
+							<p class="card-text">En esta área conoceremos los distintos
+								paisajes de Francia, mientras aprendemos este idioma charlando
+								con los ciudadanos, probaremos distintas comidas de ese lugar y
+								visitaremos la hermosa Torre Eiffel o el Palacio de Versalles</p>
+							<a href="https://youtu.be/j_8AvR3Hi0oE" target="_blank"
+								class="btn btn-primary">Leer más</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+	</section>
+
+	<!-- CURSOS -->
+
+
+	<!-- footer -->
+	<div th:insert="footer :: footer"></div>
+</body>
+
+</html>
