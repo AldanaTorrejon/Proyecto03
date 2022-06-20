@@ -1,0 +1,109 @@
+@charset "ISO-8859-1";
+
+body {
+	background: url("/img/fondo1.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 130%;
+	background-attachment: fixed;
+}
+
+.navbar {
+	background-color: #8f5d79;
+	font-size: 16px;
+	font-family: 'PT Sans', Verdana, sans-serif;
+	font-style: normal;
+}
+
+label {
+	font-size: 25px;
+	color: #f4eee1;
+	font-family: monospace, courier;
+	/* display: flex;*/
+}
+
+.titulo {
+	height: 10vh;
+	margin-left: 0%;
+	margin-right: 0%;
+	background-position: center;
+	background-size: cover;
+	background: #DF836F;
+	font-size: 60px;
+	color: #000;
+	font-family: "fantasy", Critter;
+	font-style: italic;
+	font-weight: bolder;
+}
+
+.texto {
+	color: #f4eee1;
+	font-size: 25px;
+	text-shadow: 3px 3px 2px #bcc1c0;
+	font-family: monospace, courier;
+	text-align: center;
+	font-weight: bold;
+}
+
+/* aviso y aside */
+.aviso {
+	background: #DF836F;
+	color: #000;
+	font-size: 18px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	margin-left: 0%;
+	margin-right: 0%;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+/* CURSOS */
+.cursos {
+	background: url(/img/cursos.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+h3 {
+	color: #f4eee1;
+	font-size: 25px;
+	text-shadow: 3px 3px 2px #bcc1c0;
+	font-family: monospace, courier;
+	text-align: center;
+	font-weight: bold;
+}
+
+.card-border {
+	border: rgb(254, 131, 134) 3px #000;
+	border-radius: 30px;
+	overflow: hidden;
+	transition: all ease-out 0.2s;
+	font-size: 13px;
+	font-family: monospace, courier;
+}
+
+.card-border:hover {
+	transform: scale(1.05);
+}
+
+.card-text {
+	color: black;
+}
+
+/* CURSOS */
+
+/* footer */
+.footer {
+	height: 120px;
+	margin-left: 0%;
+	margin-right: 0%;
+	background-color: #000;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #c0c0c0;
+	font-style: normal;
+	font-size: 13px;
+	line-height: 1.5;
+}
+
+/* footer */
